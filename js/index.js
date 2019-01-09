@@ -1,2 +1,7 @@
-// using this file is optional
-// you can also load the code snippets in using your browser's console
+document.addEventListener('DOMContentLoaded', function(){
+  console.log('DOM has loaded');
+});
+
+function getInput() {
+  return document.querySelector('input')
+}
